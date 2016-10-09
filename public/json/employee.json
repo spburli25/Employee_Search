@@ -2,35 +2,35 @@
   {
   "Name" : "Jeff Chadwick",
   "Age" : 36,
-  "ShoeSize" : 8,
+  "Shoe Size" : 8,
   "Title": "CEO"
   },
 
   {
   "Name" : "Chada Jeffers",
   "Age" : 23,
-  "ShoeSize" : 6,
+  "Shoe Size" : 6,
   "Title": "TEA BOY"
   },
 
   {
   "Name" : "Charlie Tadpole",
   "Age" : 42,
-  "ShoeSize" : 9,
+  "Shoe Size" : 9,
   "Title": "ACCOUNTANT"
   },
 
   {
   "Name" : "John Kerry",
   "Age" : 43,
-  "ShoeSize" : 8,
+  "Shoe Size" : 8,
   "Title": "MANAGER"
   },
 
   {
-  "Name" : "Charlie Tadpole",
+  "Name" : "Chris Morrey",
   "Age" : 30,
-  "ShoeSize" : 9,
+  "Shoe Size" : 9,
   "Title": "VP"
   }
 ]

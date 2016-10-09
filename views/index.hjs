@@ -8,11 +8,11 @@
   </head>
   <body>
     <header>Search</header>
-    <div id="formdata">
+    <section id="formdata">
       <form>
         <input type="text" id="myInput" onkeyup="searchName()" placeholder="Search ">
     </form>
     <div id="showData"></div>
-  </div>
+  </section>
   </body>
 </html>
