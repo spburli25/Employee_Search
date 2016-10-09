@@ -55,7 +55,7 @@ th {
     font-weight:bold;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: #f9fbd0;
 }
 table {
@@ -68,5 +68,10 @@ table {
   tr th:nth-child(2),tr td:nth-child(2),tr th:nth-child(3),tr td:nth-child(3){
       display:none;
     }
-
+  tr td:nth-child(1) {
+    border-right-style: hidden;
+  }
+  tr th:nth-child(1) {
+    border-right-style: hidden;
+  }
 }
