@@ -1,0 +1,72 @@
+header {
+  font-family: "Lucida Grande",Arial, Helvetica, sans-serif;
+  font-size: 24px ;
+  font-weight: bold;
+  line-height: 36px;
+  background-color: #008c85;
+  color: #e4efee;
+  width: auto;
+  margin-bottom: 30px;
+  height: 50px;
+  padding: 10px 10px;
+
+}
+
+input[type=text] {
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 0px;
+    font-size: 12px;
+    background-color: white;
+    background-image: url('../images/searchicon1.png');
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=button] {
+    width:auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 0px;
+    font-size: 12px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    margin: -5px;
+}
+
+table, th, td {
+
+    margin:20px 0;
+    border:solid 1px #333;
+    padding:2px 4px;
+    width: auto;
+    font: 20px "Lucida Grande",Arial, Helvetica,sans-serif;
+    line-height: 36px;
+    color: #0c332f;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+th {
+    font: 20px "Lucida Grande",Arial, Helvetica,sans-serif;
+    font-weight:bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fbd0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+@media all and (max-width: 480px)  {
+  tr th:nth-child(2),tr td:nth-child(2),tr th:nth-child(3),tr td:nth-child(3){
+      display:none;
+    }
+
+}
